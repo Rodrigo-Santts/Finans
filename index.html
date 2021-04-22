@@ -7,10 +7,14 @@
         <meta name="keywords" content="HTML,CSS-BOOTSTRAP">
         <meta name="description" content="Uma aplicativo para descomplica suas financias">
         <link rel="stylesheet" href="/css/bootstrap.min.css">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="/css/style.css">
         <link rel="stylesheet" href="/css/open-iconic.min.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet"> 
+        <link rel="apple-touch-icon" sizes="180x180" href="css/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="css/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="css/favicon/favicon-16x16.png">
+        <link rel="manifest" href="css/favicon/site.webmanifest">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&+++++++++++888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888display=swap" rel="stylesheet"> 
         <title>Finans Controle Financeiro</title>
     </head>
 
@@ -76,17 +80,85 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-md-6 d-none d-md-block">
-                            <img src="/img/capa-mulher.png" alt="">
+                        <img src="/img/capa-mulher.png" alt="" class="col-md-6 d-none d-md-block">
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <section class="container caixa" id="recursos">
+           <div class="row d-flex"> 
+               <div class=" col-md-6  align-self-center">
+                   <h2 class="">Saiba pra onde vai seu dinheiro</h2><br>
+                   <p class="">Com  a Finans, você categoriza todos os seus Orçamentos. Com gráficos simples, você sabe de onde vem seu dinheiro.</p>
+                   <a href="" class="btn btn-primary">Saiba Mais</a>
+               </div>
+               <div class="col-md-6">
+                   <img src="/img/saiba.png" alt="" class="img-fluid">
+               </div>
+           </div>
+        </section>
+
+        <section class="container caixa">
+           <div class="row d-flex"> 
+               <div class="col-md-6">
+                   <img src="/img/juros.png" alt="" class="img-fluid">
+                </div>
+                <div class=" col-md-6  align-self-center">
+                    <h2 class="">Para de pagar juros e economize</h2><br>
+                    <p class="">Manter as contas em dia e sempre um problema?O Organizze ajuda você: receber alertas de contas a pagar e receber!</p>
+                    <a href="" class="btn btn-primary">Saiba Mais</a>
+                </div>
+           </div>
+        </section>
+
+        <div class="caixa">
+            <section class="container" id="beneficios">
+                <div class="card-deck">
+                    <div class="card">
+                        <img class="card-img-top img-fluid" src="/img/facil.png" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">Fácil de usar</h4>
+                            <p class="card-text">O Finans vai além do básico e permite que você faça controle incríveis,essenciais para suas finanças. Simples como tem que ser!</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="img/economize.png" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">economize seu tempo</h4>
+                            <p class="card-text">tempo é dinheiro! Em segundos, você tem tudo sob controle e aproveite seu tempo com o que realmente importa pra você!</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="/img/suporte.png" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">Suporte amigo</h4>
+                            <p class="card-text">Dúvida? Nosso suporte super legal ajuda você! A gente tá aqui pra resolver seus problemas e deixar sua vida bem mais fácil!</p>
                         </div>
                     </div>
                 </div>
             </section>
         </div>
 
-    <script src="/js/bootstrap.min.js"></script>
-    <script src="/js/all.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <nav class="navbar  navbar-light bg-light">
+            <div class="container row d-flex">
+                <div class="col-9">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="#home">Home</a>
+                        <a class="nav-link" href="#recursos">Recursos</a>
+                        <a class="nav-link" href="#beneficios">Benefícios</a>
+                        <a class="nav-link" href="#precos">Preços</a>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <span>By Rodrigo Santts</span>
+                    <p>&copy; Todos os direitos reservados</p>
+                </div>
+            </div>
+        </nav>
+        <script src="/js/bootstrap.min.js"></script>
+        <script src="/js/all.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </body>
